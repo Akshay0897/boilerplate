@@ -3,8 +3,6 @@ import "./styles.css"
 import { hot } from "react-hot-loader"
 const Warning = React.lazy(() => import("./Warning"))
 
-const a = "A"
-
 class App extends Component {
   state = {
     count: 0,
