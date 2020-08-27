@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import "./styles.css"
 import { hot } from "react-hot-loader"
 const Warning = React.lazy(() => import("./Warning"))
 
