@@ -1,4 +1,5 @@
 {
+  "parser": "babel-eslint",
   "env": {
     "browser": true,
     "es2020": true,
@@ -9,17 +10,17 @@
   "extends": [
     "plugin:react/recommended",
     "airbnb",
-    "plugin:jsx-a11y/recommanded"
+    "plugin:jsx-a11y/recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 12,
+    "ecmaVersion": 2020,
     "sourceType": "module"
   },
   "plugins": ["react", "jsx-a11y"],
   "rules": {
-    "no-unused-vars": ["error", { "allowShortCircuit": true }]
+    "no-unused-vars": "warn"
   }
 }
